@@ -1,0 +1,44 @@
+.toast {
+  color: var(--toast-text-color);
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .close {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .title {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .message {
+    margin: 0;
+    text-align: left;
+    text-wrap: normal;
+    font-size: 14px;
+  }
+}
+
+.error {
+  background: var(--toast-danger-bg-color);
+}
+
+.success{
+  background: var(--toast-success-bg-color);
+}
+
+.warning{
+  background: var(--toast-warning-bg-color);
+}

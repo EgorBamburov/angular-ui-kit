@@ -1,0 +1,16 @@
+.link-btn {
+  border: none;
+  background: transparent;
+  color: var(--link-btn-text);
+  padding: 0;
+  font-size: var(--text-s);
+}
+
+.link-btn:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.link-btn:disabled {
+  opacity: 0.6;
+}
