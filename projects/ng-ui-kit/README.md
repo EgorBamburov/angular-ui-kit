@@ -1,24 +1,40 @@
 # NgUiKit
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+### Общая информация
+- Версия Angular CLI 18.2.0
+- Работает от версии Angular CLI 17.x.x
+- Для работы иконок необходима библиотека [NgIcons](https://github.com/ng-icons/ng-icons) и иконки NgFontAwesome]
+- Текущая актуальная версия 0.0.2
+- [Документация](https://github.com/EgorBamburov/angular-ui-kit)
+- [GitHub](https://github.com/EgorBamburov/angular-ui-kit)
 
-## Code scaffolding
+Посмотреть историю версий можно [тут](changes/main.md)
+### Быстрый старт 
+1. Установить библиотеку
+```bash
+npm install @egor-bamburov/ng-ui-kit
+```
+Подключить стили в глобальном styles.scss файле
+```scss
+@import "@egor-bamburov/ng-ui-kit/styles/styles";
+```
+Подключить модуль UiKitModule в нужном модуле или компоненте
+```ts
+import {UiKitModule} from '@egor-bamburov/ng-ui-kit';
 
-Run `ng generate component component-name --project ng-ui-kit` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-ui-kit`.
-> Note: Don't forget to add `--project ng-ui-kit` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build ng-ui-kit` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build ng-ui-kit`, go to the dist folder `cd dist/ng-ui-kit` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test ng-ui-kit` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+@Component({
+  selector: 'app-your-component',
+  standalone: true,
+  imports: [
+    UiKitModule
+  ],
+  templateUrl: './your-component.component.html',
+  styleUrl: './your-component.component..scss'
+})
+export class YourComponent {
+}
+```
+В шаблоне вызвать нужный компонент(для примера используется ui-kit-text-input) полный список можно найти [тут](https://github.com/EgorBamburov/angular-ui-kit)
+```angular2html
+<ui-kit-text-input label="test" placeholder="test" errorLabel="test" [isShowError]="isShowError$()" />
+```
