@@ -14,11 +14,11 @@
 ```bash
 npm install @egor-bamburov/ng-ui-kit
 ```
-Подключить стили в глобальном styles.scss файле
+2. Подключить стили в глобальном styles.scss файле
 ```scss
 @import "@egor-bamburov/ng-ui-kit/styles/styles";
 ```
-Подключить модуль UiKitModule в нужном модуле или компоненте
+3. Подключить модуль UiKitModule в нужном модуле или компоненте
 ```ts
 import {UiKitModule} from '@egor-bamburov/ng-ui-kit';
 
@@ -34,7 +34,7 @@ import {UiKitModule} from '@egor-bamburov/ng-ui-kit';
 export class YourComponent {
 }
 ```
-В шаблоне вызвать нужный компонент(для примера используется ui-kit-text-input) полный список можно найти [тут](https://github.com/EgorBamburov/angular-ui-kit)
+4. В шаблоне вызвать нужный компонент(для примера используется ui-kit-text-input) полный список можно найти [тут](https://github.com/EgorBamburov/angular-ui-kit)
 ```angular2html
 <ui-kit-text-input label="test" placeholder="test" errorLabel="test" [isShowError]="isShowError$()" />
 ```
