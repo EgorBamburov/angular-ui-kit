@@ -5,6 +5,7 @@ import {NgIcon, NgIconsModule} from '@ng-icons/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {UiKitToast} from './components/toast/ui-kit-toast';
 import {UiKitTextInput} from './components/text-input/ui-kit-text-input';
+import {ToastService} from './components/toast/services/toast.service';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import {UiKitTextInput} from './components/text-input/ui-kit-text-input';
   exports: [
     UiKitPasswordInput,
     UiKitToast,
-    UiKitTextInput
+    UiKitTextInput,
   ],
   imports: [
     CommonModule,

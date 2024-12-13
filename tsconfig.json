@@ -22,7 +22,15 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-ui-kit": [
+        "./dist/ng-ui-kit"
+      ],
+      "ui-kit": [
+        "./dist/ui-kit"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

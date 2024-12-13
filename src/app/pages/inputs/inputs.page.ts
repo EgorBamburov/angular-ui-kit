@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import {UiKitModule} from '../../modules/ui-kit/ui-kit.module';
+// import {UiKitModule} from '../../../../projects/ng-ui-kit/src/public-api'
 
 @Component({
   selector: 'app-inputs',
   standalone: true,
   imports: [
-    UiKitModule
+    // UiKitModule
   ],
   templateUrl: './inputs.page.html',
   styleUrl: './inputs.page.scss'
