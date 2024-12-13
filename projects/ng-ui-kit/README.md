@@ -8,7 +8,7 @@
 - [Документация](https://github.com/EgorBamburov/angular-ui-kit)
 - [GitHub](https://github.com/EgorBamburov/angular-ui-kit)
 
-Посмотреть историю версий можно [тут](changes/main.md)
+Посмотреть историю версий можно [тут](https://github.com/EgorBamburov/angular-ui-kit/blob/master/projects/ng-ui-kit/changes/main.md)
 ### Быстрый старт 
 1. Установить библиотеку
 ```bash
