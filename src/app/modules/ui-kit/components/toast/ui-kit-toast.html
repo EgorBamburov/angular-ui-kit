@@ -1,0 +1,11 @@
+@if (toastService.toast$()) {
+  <div class="toast" [class]="toastService.toast$()?.type">
+    <div class="close">
+      <ng-icon [name]="icon" (click)="close()" />
+    </div>
+
+    <h2 class="title">{{ toastService.toast$()?.title }}</h2>
+    <p class="message">{{ toastService.toast$()?.message }}</p>
+  </div>
+}
+

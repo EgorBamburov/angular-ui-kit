@@ -1,0 +1,18 @@
+<div>
+  @if (label) {
+    <label class="info">{{ label }}</label>
+  }
+
+  <input
+    class="primary-input"
+    type="text"
+    [class]="{ 'input-error': isShowError }"
+    [value]="value"
+    [placeholder]="placeholder"
+    (input)="onInputChange($event)"
+  >
+
+  @if (errorLabel && isShowError) {
+    <label class="error">{{ errorLabel }}</label>
+  }
+</div>
