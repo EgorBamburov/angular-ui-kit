@@ -1,6 +1,6 @@
 {
   "name": "@egor-bamburov/ng-ui-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "style": "styles/styles.scss",
   "peerDependencies": {
     "@angular/common": "^18.2.0",
