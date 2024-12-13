@@ -1,8 +1,0 @@
-/*
- * Public API Surface of ui-kit
- */
-export * from './ui-kit.module';
-export * from './components';
-export * from './servces';
-export * from './interfaces';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25nLXVpLWtpdC9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsaUJBQWlCLENBQUE7QUFDL0IsY0FBYyxjQUFjLENBQUE7QUFDNUIsY0FBYyxXQUFXLENBQUE7QUFDekIsY0FBYyxjQUFjLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIHVpLWtpdFxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vdWkta2l0Lm1vZHVsZSdcbmV4cG9ydCAqIGZyb20gJy4vY29tcG9uZW50cydcbmV4cG9ydCAqIGZyb20gJy4vc2VydmNlcydcbmV4cG9ydCAqIGZyb20gJy4vaW50ZXJmYWNlcydcbiJdfQ==

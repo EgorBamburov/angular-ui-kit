@@ -4,7 +4,10 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "paths": {
+      "@egor-bamburov/ng-ui-kit": ["../ng-ui-kit/src/public-api"]
+    }
   },
   "files": [
     "src/main.ts"
