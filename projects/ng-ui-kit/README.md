@@ -3,7 +3,7 @@
 ### Общая информация
 - Версия Angular CLI 18.2.0
 - Работает от версии Angular CLI 17.x.x
-- Для работы иконок необходима библиотека [NgIcons](https://github.com/ng-icons/ng-icons) и иконки NgFontAwesome]
+- Для работы иконок необходима библиотека [NgIcons](https://github.com/ng-icons/ng-icons) и иконки NgFontAwesome
 - Текущая актуальная версия 0.0.2
 - [Документация](https://github.com/EgorBamburov/angular-ui-kit)
 - [GitHub](https://github.com/EgorBamburov/angular-ui-kit)
