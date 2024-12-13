@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import {UiKitModule} from '../../modules/ui-kit/ui-kit.module';
-import {ToastService} from '../../modules/ui-kit/components/toast/services/toast.service';
+import {ToastService, UiKitModule} from '../../../../projects/ui-kit/src/public-api';
 
 @Component({
   selector: 'app-toasts',

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {UiKitModule} from '../../modules/ui-kit/ui-kit.module';
+// import {UiKitModule} from '../../../../projects/ui-kit/src/public-api';
+import {UiKitModule} from '../../../../dist/ui-kit';
 
 @Component({
   selector: 'app-inputs',
