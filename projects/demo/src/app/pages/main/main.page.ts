@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './main.page.scss'
 })
 export class MainPage {
-
+  public copyOnClipBoard(event: any): void {
+    navigator.clipboard.writeText(event.target.textContent)
+  }
 }

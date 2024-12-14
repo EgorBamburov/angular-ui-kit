@@ -1,1 +1,27 @@
 <ui-kit-toast defaultDuration="1000" />
+
+<form [formGroup]="toastForm">
+  <ui-kit-text-input placeholder="Toast Title" formControlName="title" />
+  <ui-kit-text-input placeholder="Toast Message" formControlName="message" />
+</form>
+
+<button
+  class="primary-btn"
+  (click)="createToast('error')"
+>
+  Toast "Ошибка"
+</button>
+
+<button
+  class="primary-btn"
+  (click)="createToast('success')"
+>
+  Toast "Успех"
+</button>
+
+<button
+  class="primary-btn"
+  (click)="createToast('warning')"
+>
+  Toast "Предупреждение"
+</button>

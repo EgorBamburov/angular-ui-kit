@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "@egor-bamburov/ng-ui-kit/styles/styles";
+
+body {
+  margin: 0;
+  background: var(--primary-bg);
+}
+
+main {
+  padding: 10px;
+}

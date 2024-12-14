@@ -1,1 +1,57 @@
-<p>main works!</p>
+<main>
+  <h1>Dev Demo используется для визуализации наработок по текущим и новым компонентам.</h1>
+
+  <h2>Запуск в режиме разработки</h2>
+
+  <ul>
+    <li>
+      Запустить сборку библиотек командой
+      <button
+        class="link-btn"
+        title="Скопировать"
+        (click)="copyOnClipBoard($event)"
+      >"ng build ng-ui-kit --watch"</button>
+    </li>
+
+    <li>
+      В директории библиотеки projects/ng-ui-kit выполнить команду
+      <button
+        class="link-btn"
+        title="Скопировать"
+        (click)="copyOnClipBoard($event)"
+      >"npm lint"</button>
+    </li>
+
+    <li>
+      Запустить demo командой ng serve demo
+      <button
+        class="link-btn"
+        title="Скопировать"
+        (click)="copyOnClipBoard($event)"
+      >"ng serve demo"</button>
+    </li>
+
+    <li>
+      В директории demo projects/demo запустить команду
+      <button
+        class="link-btn"
+        title="Скопировать"
+        (click)="copyOnClipBoard($event)"
+      >"{{ '@egor-bamburov/ng-ui-kit' }}"</button>
+    </li>
+  </ul>
+
+  <h2>Правила разработки:</h2>
+
+  <ul>
+    <li>
+      Создать новый компонент командой npm run "generate:ui-kit components/component-name"
+    </li>
+
+    <li>
+      Создать новый standalone компонент в demo командой "generate:demo pages/component-name"
+    </li>
+
+    <li>После завершения разработки и тестирования добавить страницу с описанием нового компонента в корневой проект</li>
+  </ul>
+</main>

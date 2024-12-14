@@ -1,0 +1,31 @@
+header {
+  padding: 15px 24px;
+  border: 1px solid var(--primary-border-color);
+
+  a {
+    font-size: var(--text-xl);
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+
+  .navigation {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 15px;
+    border-left: 1px solid var(--primary-border-color);
+    border-right: 1px solid var(--primary-border-color);
+
+    .nav-item {
+      text-align: center;
+      padding: 5px;
+      font-size: var(--text-l);
+      border-bottom: 1px solid var(--primary-border-color);
+    }
+  }
+}
