@@ -17,7 +17,7 @@ export class ToastService {
     const toastClone: IToast = { ...toast }
 
     if (!toast.title) {
-      switch (toast.type) {
+      switch (toast.status) {
         case 'error':
           toastClone.title = 'Ошибка'
           break;

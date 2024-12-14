@@ -1,1 +1,1 @@
-export * from './components/toast/interfaces/index'
+export * from './lib/components/toast/interfaces/index'

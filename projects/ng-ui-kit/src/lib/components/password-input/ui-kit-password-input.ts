@@ -16,6 +16,9 @@ import {ControlValueAccessor, NG_VALUE_ACCESSOR} from "@angular/forms";
 export class UiKitPasswordInput implements ControlValueAccessor {
   @Input() isShowPassword = false;
   @Input() placeholder = '';
+  @Input() label = '';
+  @Input() errorLabel = '';
+  @Input() isShowError = true;
 
   @Output() toggleShowPassword = new EventEmitter()
 

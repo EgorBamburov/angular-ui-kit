@@ -28,7 +28,7 @@ npm link
 2. Объединяем проекты для работы hot reload
 ```bash
 cd projects/demo
-npm install @egor-bamburov/ng-ui-kit
+npm link @egor-bamburov/ng-ui-kit
 ```
 3. Запускаем demo доступно по [ссылке](http://localhost:4200/) 
 ```bash

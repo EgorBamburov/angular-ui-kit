@@ -1,6 +1,8 @@
 export interface IToast {
   message?: string
   title?: string
-  type: 'error' | 'success' | 'warning'
   duration?: number
+  status: TToastStatus
 }
+
+export type TToastStatus  = 'success' | 'warning' | 'error'

@@ -1,5 +1,5 @@
 @if (toastService.toast$()) {
-  <div class="toast" [class]="toastService.toast$()?.type">
+  <div class="toast" [class]="toastService.toast$()?.status">
     <div class="close">
       <ng-icon [name]="icon" (click)="close()" />
     </div>

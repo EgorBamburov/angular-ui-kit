@@ -1,1 +1,1 @@
-export * from './components/toast/services/toast.service'
+export * from './lib/components/toast/services/toast.service'
